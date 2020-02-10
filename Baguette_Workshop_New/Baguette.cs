@@ -12,6 +12,7 @@ namespace Baguette_Workshop_New
     [KnownType(typeof(Wood))]
     abstract class Baguette : IComparable
     {
+        public string siroga; 
         /*[DataMember]
         public Dictionary<Material, int> materials = new Dictionary<Material, int>(); //Maybe I need Container here?
         [DataMember]
